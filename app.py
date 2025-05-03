@@ -29,9 +29,9 @@ def predict_ad(data: ad):
     print(age,sex,estimated_sal)
 
     prediction = clf2.predict([[age,sex,estimated_sal]])
-    print('********************************************')
+    print('*******************************************')
     print(prediction)
-    print('********************************************')
+    print('*******************************************')
     if(prediction[0] == 0):
         prediction="not click"
     else:
